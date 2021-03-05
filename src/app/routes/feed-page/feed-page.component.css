@@ -1,0 +1,37 @@
+@media only screen and (max-width: 500px){
+  .post-container{
+    width: 90vw!important;
+  }
+}
+
+.post-container {
+  width: 30vw;
+  height: 60vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 80px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.post-title {
+  height: 45px;
+  text-align: center;
+  line-height: 40px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.post-image {
+  height: calc(100% - 45px) ;
+  width: 100%;
+}
+
+.comments {
+
+}
+
+.heartIcon {
+  font-size: 5vh;
+  color: red;
+}

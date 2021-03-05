@@ -1,0 +1,36 @@
+@media only screen and (max-width: 500px){
+  .insta-icon{
+    width: 10%!important;
+  }
+}
+
+@font-face {
+  font-family: billabong;
+  src: url("../assets/fonts/FontsFree-Net-Billabong.ttf");
+}
+
+.navBarHeader{
+  border: 1px #00000054 solid;
+  height: 54px;
+  align-items: center;
+}
+.side-menu-container {
+  width: 20%;
+  height: 100%;
+  border: 1px solid #555;
+}
+
+.insta-icon {
+  width: 2.7%;
+}
+
+.instagram-title {
+  font-family: 'billabong', 'arial', 'sans-serif';
+  font-size: 32px;
+  margin: 0 30px 0;
+}
+
+.new-button {
+  margin-left: 10vw;
+  height: 80%;
+}

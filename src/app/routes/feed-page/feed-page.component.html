@@ -1,0 +1,14 @@
+
+<div *ngFor="let post of postList" class="post-container">
+  <div class="post-title">{{post.title}}</div>
+  <img class="post-image" src="{{post.image}}">
+  <form class="comments">
+    <mat-form-field>
+      <mat-label>Add a comment</mat-label>
+      <input matInput #message maxlength="256" placeholder="Wow, great picture!">
+      <mat-hint align="end">{{message.value.length}} / 256</mat-hint>
+    </mat-form-field>
+  </form>
+</div>
+
+

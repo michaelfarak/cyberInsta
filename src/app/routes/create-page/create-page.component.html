@@ -1,0 +1,14 @@
+<div class="create-page">
+  <button *ngIf="!showForm" (click)="toggleForm()" mat-raised-button color="warn" class="create-button">Create New Post</button>
+  <form *ngIf="showForm" [formGroup]="postForm" (ngSubmit)="onSubmit()" class="post-form d-flex flex-column justify-content-around">
+    <div>
+      <label for="title">
+        Title
+      </label>
+      <input id="title" type="text" formControlName="title">
+    </div>
+    <app-file-upload formControlName="image"></app-file-upload>
+    <button class="submit-btn" type="submit" mat-raised-button color="warn">Post it</button>
+  </form>
+</div>
+
